@@ -2,7 +2,7 @@
 
 This project demonstrates how to use an MQ135 gas sensor and an HC-SR04 ultrasonic sensor with an ESP32 microcontroller to measure air quality (in PPM) and distance, respectively. The data is then sent to Firebase Realtime Database for storage and further analysis.
 
----
+
 
 ## Hardware Requirements
 - **ESP32 Microcontroller**
@@ -12,7 +12,7 @@ This project demonstrates how to use an MQ135 gas sensor and an HC-SR04 ultrason
 - **Power Supply** (e.g., USB cable)
 - **Wi-Fi Connection** (for Firebase integration)
 
----
+
 
 ## Software Requirements
 - **Arduino IDE** (with ESP32 board support installed)
@@ -21,7 +21,7 @@ This project demonstrates how to use an MQ135 gas sensor and an HC-SR04 ultrason
 - **Wire.h** (included with Arduino IDE)
 - **NTPClient Library** (for time synchronization)
 
----
+
 
 ## Setup Instructions
 1. **Connect the Hardware:**
@@ -47,7 +47,7 @@ This project demonstrates how to use an MQ135 gas sensor and an HC-SR04 ultrason
    - Select the correct board and port in Arduino IDE (`Tools > Board` and `Tools > Port`).
    - Upload the code to the ESP32.
 
----
+
 
 ## Code Overview
 The code performs the following tasks:
@@ -67,7 +67,7 @@ The code performs the following tasks:
 4. **Loop:**
    - Continuously reads sensor data and sends it to Firebase every 6 seconds.
 
----
+
 
 ## Firebase Configuration
 1. **Create a Firebase Project:**
@@ -92,7 +92,7 @@ The code performs the following tasks:
      }
      ```
 
----
+
 
 ## Usage
 1. **Power On the Circuit:**
@@ -105,7 +105,7 @@ The code performs the following tasks:
    - Go to the Firebase Console and navigate to the Realtime Database.
    - You should see sensor data organized by MAC address and timestamp.
 
----
+
 
 ## Troubleshooting
 - **Wi-Fi Connection Issues:**
