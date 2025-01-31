@@ -124,3 +124,8 @@ The code performs the following tasks:
   - Ensure the ESP32 is connected to the internet.
   - Check the NTP server address (`pool.ntp.org`).
 
+
+
+
+
+
