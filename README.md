@@ -48,6 +48,9 @@ This project demonstrates how to use an MQ135 gas sensor and an HC-SR04 ultrason
    - Upload the code to the ESP32.
 
 
+### Circuit
+![Circuit ](screen/.png)  
+
 
 ## Code Overview
 The code performs the following tasks:
